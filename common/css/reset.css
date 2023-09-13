@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:root {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  --color-01: #dedede;
+  --color-02: #777;
+  --color-03: #cee9ff;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+button {
+  display: block;
+  cursor: pointer;
+}
+button, fieldset {
+  background-color: transparent;
+  border: none;
+}
+dialog {
+  border: none;
+  overflow: inherit;
+}

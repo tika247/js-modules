@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node browser-sync.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.mitsue.com/nishina-takahiro/js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "connect-ssi": "^1.1.1"
+  }
+}

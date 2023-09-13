@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accordion</title>
+<link rel="stylesheet" href="/common/css/reset.css">
+<link rel="stylesheet" href="/modules/accordion/css/style.css">
+<script src="/modules/accordion/js/script.js" defer></script>
+</head>
+<body>
+
+<div class="acd js-acd">
+<h3>
+<button type="button" class="acd__btn fn-acd__btn">Title<span class="acd__icon"><span class="fn-acd__alt">Open</span></span>
+</button>
+</h3>
+<div class="acd__content fn-acd__content">
+
+<fieldset class="acd__field">
+<legend class="acd__legend">Fill in the blank below</legend>
+<div class="acd__item">
+<label for="item1">Name<span aria-hidden="true">*</span>:</label>
+<input type="text" value="" name="Name" id="item1" aria-required="true">
+</div>
+<div class="acd__item">
+<label for="item2">Email<span aria-hidden="true">*</span>:</label>
+<input type="text" value="" name="Email" id="item2" aria-required="true">
+</div>
+<div class="acd__item">
+<label for="item3">Phone:</label>
+<input type="text" value="" name="Phone" id="item3">
+</div>
+<div class="acd__item">
+<label for="item4">Country:</label>
+<input type="text" value="" name="Country" id="item4">
+</div>
+<div class="acd__item">
+<label for="item5">City/Province:</label>
+<input type="text" value="" name="City_Province" id="item5">
+</div>
+</fieldset>
+
+</div><!-- /.acd__content -->
+</div><!-- /.acd -->
+
+</body>
+</html>
