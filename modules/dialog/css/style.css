@@ -9,7 +9,7 @@ body {
 }
 
 .dialog {
-    width: min(1200px + 20px * 2, 100%);
+    width: min(var(--layout) + var(--gutter) * 2, calc(100% - var(--gutter) * 4));
     margin: 0 auto;
     top: 50%;
     left: 50%;
@@ -17,6 +17,7 @@ body {
 }
 
 .dialog__content {
+    min-height: calc(100vh - var(--gutter) * 2);
     padding: 80px;
     border-radius: 8px;
     background-color: #fff;
