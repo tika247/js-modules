@@ -63,6 +63,7 @@
       this.isDialogOpen = true;
       this.root.showModal();
       this.btn.setAttribute('aria-expanded', String(this.isDialogOpen));
+      document.documentElement.style.overflow = 'hidden';
     }
 
     /**
@@ -76,6 +77,7 @@
       this.isDialogOpen = false;
       this.root.close();
       this.btn.setAttribute('aria-expanded', String(this.isDialogOpen));
+      document.documentElement.removeAttribute('style')
     }
 
     /**
